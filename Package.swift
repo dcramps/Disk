@@ -11,7 +11,7 @@ let package = Package(
         .target(
             name: "Disk",
             path: "Sources",
-            exclude: ["DiskExample"]
+            exclude: ["DiskExample", "Info.plist"]
         ),
         .testTarget(
             name: "DiskTests",
